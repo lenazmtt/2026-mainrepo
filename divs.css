@@ -1,0 +1,28 @@
+body{
+    background-color: #d4ebff;
+    color: #e8e8e8;
+}
+
+
+.bigBox{
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+.smallBox {
+    flex-grow: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid black;
+}
+
+.red{
+    background-color: #6e2222;
+}
+
+.blue{
+    background-color: #232378;
+}
