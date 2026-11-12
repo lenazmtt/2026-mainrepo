@@ -76,4 +76,26 @@ main section h2{
     padding: 20px 50px 0px;
 }
 
+.maindiv{
+    display: flex;
+}
+
+.maindiv main{
+    flex: 5;
+}
+
+.maindiv aside{
+    flex: 1;
+    background-color: #e1e1cc;
+    padding: 20px 50px;
+}
+
+.maindiv aside ul{
+    list-style-type: none;
+}
+
+.maindiv aside ul li a{
+    text-decoration: none;
+    color: #000000;
+}
 /*END MAIN STYLES*/
