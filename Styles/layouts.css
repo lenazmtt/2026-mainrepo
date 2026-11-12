@@ -99,3 +99,36 @@ main section h2{
     color: #000000;
 }
 /*END MAIN STYLES*/
+
+/*FOOTER STYLES*/
+footer{
+    display: flex;
+    background-color: #000000;
+    padding: 0 10;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    margin-top: 20px;
+}
+
+footer ul li a{
+    color: #ffffff;
+}
+
+footer ul li a:hover{
+    color: #978466;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer .mapdiv{
+    padding: 20px;
+}
+
+/*END FOOTER STYLES*/
